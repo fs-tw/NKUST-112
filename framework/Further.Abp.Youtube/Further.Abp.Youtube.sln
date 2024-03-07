@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{19E427A0-07CA-4141-8BB9-4CA12704F163}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Further.Abp.Youtube", "src\Further.Abp.Youtube\Further.Abp.Youtube.csproj", "{745EC6A3-92D1-4B67-9A6D-5B958B0011E1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Further.Abp.Youtube.Abstractions", "src\Further.Abp.Youtube.Abstractions\Further.Abp.Youtube.Abstractions.csproj", "{FD9E9FF5-0B18-4860-8CEF-74F233CCE96F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{745EC6A3-92D1-4B67-9A6D-5B958B0011E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{745EC6A3-92D1-4B67-9A6D-5B958B0011E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{745EC6A3-92D1-4B67-9A6D-5B958B0011E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{745EC6A3-92D1-4B67-9A6D-5B958B0011E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD9E9FF5-0B18-4860-8CEF-74F233CCE96F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD9E9FF5-0B18-4860-8CEF-74F233CCE96F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD9E9FF5-0B18-4860-8CEF-74F233CCE96F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD9E9FF5-0B18-4860-8CEF-74F233CCE96F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{745EC6A3-92D1-4B67-9A6D-5B958B0011E1} = {19E427A0-07CA-4141-8BB9-4CA12704F163}
+		{FD9E9FF5-0B18-4860-8CEF-74F233CCE96F} = {19E427A0-07CA-4141-8BB9-4CA12704F163}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {43291EF2-0012-4029-9CF6-0069A799419B}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,1 @@
+dotnet run --project Further.Abp.LineNotify.DemoApp --migrate-database
