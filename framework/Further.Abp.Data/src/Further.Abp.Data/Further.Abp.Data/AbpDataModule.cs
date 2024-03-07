@@ -10,6 +10,13 @@ namespace Further.Abp.Data
     {
         public override void ConfigureServices(ServiceConfigurationContext context)
         {
+            //ontext.Services.AddAutoMapperObjectMapper<AbpDataModule>();
+            Configure<Volo.Abp.Data.AbpDataFilterOptions>(x =>
+            {
+            });
+
+
+            //test1
         }
     }
 }
