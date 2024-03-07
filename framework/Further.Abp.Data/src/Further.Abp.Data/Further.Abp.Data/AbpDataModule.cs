@@ -10,6 +10,9 @@ namespace Further.Abp.Data
     {
         public override void ConfigureServices(ServiceConfigurationContext context)
         {
+            Configure<Volo.Abp.Data.AbpDataFilterOptions>(x =>
+            {
+            });
         }
     }
 }
